@@ -1,3 +1,3 @@
-###midHeavy Main Site
+### MidHeavy Main Site
 
 A better ReadMe
