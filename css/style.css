@@ -248,3 +248,37 @@ p {
   font-family: "Rajdhani";
   font-weight: 400;
 }
+
+:root {
+  --dark-bg: #202020;
+}
+
+body {
+  background-color: var(--dark-bg);
+}
+
+#title {
+  font-size: 3.5em;
+  font-family: rajdhani;
+  margin-top: 0;
+  color: #c4c4c4;
+  display: none;
+}
+
+#mh-logo {
+  margin: auto;
+  position: relative;
+  display: block;
+}
+
+#logo-container {
+  margin-top: 5em;
+  background: var(--dark-bg);
+  text-align: center;
+  align-items: center;
+}
+
+/* Needs to be invisible at start up */
+#hPath {
+  display: none;
+}
