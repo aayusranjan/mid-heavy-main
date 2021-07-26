@@ -155,6 +155,50 @@ li {
    My CSS
    ========================================================================== */
 
+/* --- NavBar --- */
+#nav-bar{
+  padding: 1.5rem;
+    /* sticky navbar */
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}
+.nav-row {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 18px;
+}
+.nav-details{
+  float: right;
+}
+.nav-logo{
+  display: inline;
+  font-weight: 900;
+}
+.nav-mainLogo{
+  list-style: none;
+  color: #fff;
+  letter-spacing: .25rem;
+}
+.nav-mainLogo:hover{
+  opacity: 1;
+  color: #c4c4c4;
+  text-decoration: none;
+}
+.nav-items{
+  color: #fff;
+  padding-left: 20px;
+  letter-spacing: .25rem;
+}
+.nav-items:hover{
+  opacity: 1;
+  color: #c4c4c4;
+  text-decoration: none;
+  /* transition: opacity .125s; */
+}
 /* ---- base ---- */
 
 html,
