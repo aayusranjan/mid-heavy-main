@@ -6,7 +6,7 @@ particlesJS.load("particles-js", "particles.json", function () {
 /*       --- Mid Heavy Timeline Animation ---       */
 var basicTimeline = anime.timeline()
 basicTimeline.reverse()
-var TIME_MULTIPLIER = 1.45
+var TIME_MULTIPLIER = 1.3
 
 function H() {
   // Make the line visible
@@ -61,4 +61,5 @@ basicTimeline
 
   .add(Front(`#frontPath1`))
   .add(Back(`#backPath1`))
+  .add({targets: 'p', color: 'rgba(214, 214, 214, 0)', duration: TIME_MULTIPLIER * 500})
 // **Start Here**
